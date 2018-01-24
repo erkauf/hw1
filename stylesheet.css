@@ -1,0 +1,81 @@
+/* top navigation background color */
+.topnav {
+    background-color: navy;
+    font-weight: bold;;
+    overflow: auto;
+}
+
+/* Format links in the nav bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Link color on hover */
+.topnav a:hover {
+    background-color: grey;
+    color: navy;
+}
+
+/* active/current link color */
+.topnav a.active {
+    background-color: teal;
+    text-decoration: underline;
+    color: white;
+}
+
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+li.Dublin {
+background: url('irelandflag.png')no-repeat left top;
+height: 25px;
+padding-left: 55px;
+padding-top: 15px;
+margin: 5px;
+}
+
+li.Berlin {
+background: url('germanflag.gif')no-repeat left top;
+height: 25px;
+padding-left: 55px;
+padding-top: 15px;
+margin: 5px;
+}
+
+li.Lisbon {
+background: url('portugalflag.png')no-repeat left top;
+height: 25px;
+padding-left: 55px;
+padding-top: 15px;
+margin: 5px;
+}
+
+h1 {color: white;
+background: teal;
+margin-bottom: 5px;
+}
+
+h2 {color: teal;
+border-bottom: solid 5px grey;}
+
+p {font-family: "Roboto Condensed";
+   font-size: 24px;
+   font-weight: bold;
+   color: navy;
+   margin: 5px;
+}
+
+div.ytdisclaimer {
+font-family: "Roboto Condensed";
+font-size: 14px;
+color: navy;
+margin: 5px;
+}
